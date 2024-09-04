@@ -10,7 +10,7 @@ const JoinWaitingListSection = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://slatemindai.com/api/join-waiting-list', { name, email });
+            const response = await axios.post('https://landingpage-backend-mhmk.onrender.com/api/join-waiting-list', { name, email });
             if (response.data.success) {
                 setSuccess(true);
                 setError(null);
