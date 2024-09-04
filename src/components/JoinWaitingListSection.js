@@ -8,20 +8,29 @@ const JoinWaitingListSection = () => {
     const [success, setSuccess] = useState(false);
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post('https://landingpage-backend-mhmk.onrender.com/api/join-waiting-list', { name, email });
-            
-            if (response.data.success) {
-                setSuccess(true);
-                setError(null);
-            } else {
-                setError('There was an error joining the waiting list. Please try again.');
+    e.preventDefault();
+    try {
+        const response = await axios.post('https://landingpage-backend-mhmk.onrender.com/api/join-waiting-list', 
+            { name, email },
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                withCredentials: true, // This is important for CORS with credentials
             }
-        } catch (err) {
+        );
+        
+        if (response.data.success) {
+            setSuccess(true);
+            setError(null);
+        } else {
             setError('There was an error joining the waiting list. Please try again.');
         }
-    };
+    } catch (err) {
+        console.error('Error:', err);
+        setError('There was an error joining the waiting list. Please try again.');
+    }
+};
 
     return (
         <section id="join-waitlist" className="py-20 bg-white">
