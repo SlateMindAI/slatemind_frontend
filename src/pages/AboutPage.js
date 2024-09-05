@@ -10,30 +10,42 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-[#333333] text-center mb-10">About SlateMindAI</h2>
           <p className="text-lg text-[#5f6368] mb-6">
-            SlateMindAI is designed to revolutionize the way you learn by providing an intelligent, AI-driven flashcard system that adapts to your unique needs.
-            Whether you’re a student or a professional, our platform helps you retain knowledge, collaborate with others, and achieve your learning goals.
+            At <strong>SlateMindAI</strong>, we believe that learning should be personal, engaging, and insightful. 
+            Our platform uses cutting-edge AI technology to transform the way students and professionals absorb knowledge, 
+            making learning more efficient and tailored to individual needs. Whether you're prepping for exams, developing new 
+            skills, or exploring new areas of interest, SlateMindAI helps you maximize your potential by creating a learning 
+            experience that is truly your own.
           </p>
-          {/* Add more rich content here */}
-        </div>
-      </section>
-      <section className="py-20 bg-[#F8F8F8]">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-[#333333] text-center mb-10">Meet the Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-            <div className="flex flex-col items-center">
-              <div className="w-24 h-24 bg-[#F8F8F8] rounded-full mb-4"></div>
-              <h3 className="text-2xl font-bold text-[#333333]">Rohan Mathew Alex</h3>
-              <a href="https://www.linkedin.com/in/rohan-mathew-alex" target="_blank" rel="noopener noreferrer" className="text-lg text-[#50E3C2] hover:underline">
-                LinkedIn
-              </a>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-24 h-24 bg-[#F8F8F8] rounded-full mb-4"></div>
-              <h3 className="text-2xl font-bold text-[#333333]">Nishand Gautam</h3>
-              <a href="https://www.linkedin.com/in/nishand-gautam" target="_blank" rel="noopener noreferrer" className="text-lg text-[#50E3C2] hover:underline">
-                LinkedIn
-              </a>
-            </div>
+
+          <p className="text-lg text-[#5f6368] mb-6">
+            With SlateMindAI, learning is no longer about rote memorization or overwhelming study sessions. We empower you with tools 
+            like **flashcard generation**, **study groups**, and **AI-powered chats with your uploaded materials**. Our mission is 
+            to turn information overload into organized, digestible, and actionable knowledge, helping you not just retain but deeply 
+            understand the material.
+          </p>
+
+          <p className="text-lg text-[#5f6368] mb-6">
+            From study groups that foster collaboration to **leaderboards** that add a gamified touch to your learning journey, 
+            SlateMindAI is designed to make learning interactive and fun. We’re not just another flashcard app—we’re your partner 
+            in mastering subjects, reducing learning friction, and making studying a rewarding experience.
+          </p>
+
+          <h2 className="text-4xl font-bold text-[#333333] text-center mb-10">Our Vision</h2>
+          <p className="text-lg text-[#5f6368] mb-6">
+            Our vision is simple: to make learning **accessible**, **engaging**, and **impactful** for everyone. We believe that 
+            AI can unlock the true potential of learners by giving them the tools to interact with the knowledge they care about 
+            in a deeper way.
+          </p>
+
+          <p className="text-lg text-[#5f6368] mb-6">
+            Whether you’re working on your academic goals or looking to advance professionally, SlateMindAI provides the framework 
+            you need to excel, collaborate, and grow. Join us in reshaping how knowledge is acquired and applied.
+          </p>
+
+          <div className="text-center mt-8">
+            <a href="#join-waitlist" className="bg-[#50E3C2] text-white text-lg font-bold px-6 py-3 rounded-lg hover:bg-[#4A90E2] transition-colors duration-300">
+              Join Our Community
+            </a>
           </div>
         </div>
       </section>
