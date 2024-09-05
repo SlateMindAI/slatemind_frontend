@@ -16,7 +16,7 @@ const JoinWaitingListSection = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                withCredentials: true, // This is important for CORS with credentials
+                
                 
             }
         );
