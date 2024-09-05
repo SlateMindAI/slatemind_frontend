@@ -6,6 +6,8 @@ import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
 import ScreensSection from '../components/ScreensSection';
 import JoinWaitingListSection from '../components/JoinWaitingListSection';
+import UserStoriesSection from '../components/UserStoriesSection';
+import MarketingSection from '../components/MarketingSection';
 
 
 const LandingPage = () => {
@@ -20,8 +22,10 @@ const LandingPage = () => {
             <Header />
             <HeroSection />
             <FeatureSection />
+            <MarketingSection />
             <ScreensSection />
             <JoinWaitingListSection />
+            <UserStoriesSection />
             <FAQSection openFAQ={openFAQ} toggleFAQ={toggleFAQ} />
             <Footer />
         </div>

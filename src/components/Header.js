@@ -32,6 +32,7 @@ const Header = () => {
             </div>
             <nav className="flex gap-8">
                 <Link className="text-lg font-medium text-white hover:text-[#50E3C2]" to="/about">About</Link>
+                {/* <Link className="text-lg font-medium text-white hover:text-[#50E3C2]" to="/roadmap">Roadmap</Link> */}
                 <div className="relative">
                     <button
                         className="text-lg font-medium text-white hover:text-[#50E3C2]"
