@@ -8,30 +8,38 @@ const JoinWaitingListSection = () => {
     const [success, setSuccess] = useState(false);
 
     const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-        const response = await axios.post('https://landingpage-backend-e8xa.onrender.com/api/join-waiting-list', 
-            { name, email },
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                
-                
+        e.preventDefault();
+        try {
+            // Track event for Google Analytics
+            if (window.gtag) {
+                window.gtag('event', 'join_waiting_list', {
+                    event_category: 'Form Submission',
+                    event_label: 'Join Waiting List',
+                    value: 1,
+                });
             }
-        );
-        
-        if (response.data.success) {
-            setSuccess(true);
-            setError(null);
-        } else {
+            const response = await axios.post('https://landingpage-backend-e8xa.onrender.com/api/join-waiting-list',
+                { name, email },
+                {
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+
+
+                }
+            );
+
+            if (response.data.success) {
+                setSuccess(true);
+                setError(null);
+            } else {
+                setError('There was an error joining the waiting list. Please try again.');
+            }
+        } catch (err) {
+            console.error('Error:', err);
             setError('There was an error joining the waiting list. Please try again.');
         }
-    } catch (err) {
-        console.error('Error:', err);
-        setError('There was an error joining the waiting list. Please try again.');
-    }
-};
+    };
 
     return (
         <section id="join-waitlist" className="py-20 bg-white">
