@@ -10,7 +10,7 @@ const JoinWaitingListSection = () => {
     const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const response = await axios.post('https://landingpage-backend-mhmk.onrender.com/api/join-waiting-list', 
+        const response = await axios.post('https://landingpage-backend-e8xa.onrender.com/api/join-waiting-list', 
             { name, email },
             {
                 headers: {
