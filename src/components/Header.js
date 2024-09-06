@@ -32,7 +32,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
                 {/* Logo */}
                 <Link to="/" className="text-3xl font-extrabold text-white hover:text-[#F5A623] transition-colors duration-300">
-                    <span className="text-[#50E3C2]">Slate</span><span className="text-white">Mind</span><span className="text-[#F5A623]">AI</span>
+                    <span className="text-white">SlateMind</span><span className="text-[#F5A623]">AI</span>
                 </Link>
 
                 {/* Hamburger menu for mobile */}
