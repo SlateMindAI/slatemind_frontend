@@ -55,13 +55,13 @@ const Header = () => {
                         </button>
                         {showDropdown && (
                             <div className="absolute mt-2 bg-white text-[#333333] rounded-lg shadow-lg z-30">
-                                <a href="https://www.linkedin.com/in/rohan-mathew-alex" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
+                                <a href="https://www.linkedin.com/company/slatemind-ai/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
                                     LinkedIn
                                 </a>
-                                <a href="https://discord.gg/your-invite-link" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
+                                <a href="https://discord.gg/HX5fmKSd" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
                                     Discord
                                 </a>
-                                <a href="https://www.reddit.com/r/YourSubreddit" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
+                                <a href="https://www.reddit.com/r/MindSlateAI/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
                                     Reddit
                                 </a>
                             </div>
