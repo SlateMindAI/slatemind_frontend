@@ -61,7 +61,7 @@ const Header = () => {
                                 <a href="https://discord.gg/HX5fmKSd" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
                                     Discord
                                 </a>
-                                <a href="https://www.reddit.com/r/MindSlateAI/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
+                                <a href="https://www.reddit.com/r/SlateMindAI/?feed=home" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 hover:bg-[#F5A623]">
                                     Reddit
                                 </a>
                             </div>

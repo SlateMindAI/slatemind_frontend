@@ -6,7 +6,7 @@ const Footer = () => {
       <p>© 2024 SlateMindAI. All rights reserved.</p>
       <div className="flex gap-4 mt-4">
         <a href="https://discord.gg/HX5fmKSd" target="_blank" rel="noopener noreferrer" className="hover:text-[#50E3C2]">Join our Discord</a>
-        <a href="https://www.reddit.com/r/MindSlateAI/" target="_blank" rel="noopener noreferrer" className="hover:text-[#50E3C2]">Join our Reddit</a>
+        <a href="https://www.reddit.com/r/SlateMindAI/?feed=home" target="_blank" rel="noopener noreferrer" className="hover:text-[#50E3C2]">Join our Reddit</a>
       </div>
     </footer>
   );

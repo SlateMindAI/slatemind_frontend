@@ -8,7 +8,7 @@ const UserStoriesSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <p className="text-lg text-[#5f6368] italic">
-              "MindSlate AI completely transformed how I studied for my exams. The flashcards and study groups helped me ace my finals!"
+              "SlateMind AI completely transformed how I studied for my exams. The flashcards and study groups helped me ace my finals!"
             </p>
             <p className="mt-4 font-bold text-[#333333]">- Alex, College Student</p>
           </div>
